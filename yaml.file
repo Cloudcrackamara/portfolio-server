@@ -1,7 +1,8 @@
 name: Deploy Website to S3 and CloudFront
+
 on:
   push:
-    branches: [ main ]  # triggers workflow whenever you push to main branch
+    branches: [ main ]
 
 jobs:
   deploy:
@@ -9,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4   # latest stable version
+        uses: actions/checkout@v4
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -25,3 +26,5 @@ jobs:
       - name: Invalidate CloudFront cache
         run: |
           aws cloudfront create-invalidation --distribution-id E2RUTCM7TP2GZF --paths "/*"
+
+

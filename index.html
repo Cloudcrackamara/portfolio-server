@@ -1,177 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Amarachi Ekwebelem — Cloud & DevOps Engineer | Automation Specialist</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amarachi Ekwebelem | Cloud & DevOps Engineer</title>
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900"
-      rel="stylesheet"
-    />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
 
-    <!-- Bootstrap Core CSS (Critical for layout) -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-MecoFhVZ6tDnFiEEj92lzcpJwJEtKqv+Tr7sdnXb8oSzqqp8vLeqvFv3Dgf0Sk93"
-      crossorigin="anonymous"
-    />
+<body>
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Amarachi<span> Ekwebelem</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Local Styles -->
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
-    <link rel="stylesheet" href="css/animate.css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link rel="stylesheet" href="css/magnific-popup.css" />
-    <link rel="stylesheet" href="css/aos.css" />
-    <link rel="stylesheet" href="css/ionicons.min.css" />
-    <link rel="stylesheet" href="css/flaticon.css" />
-    <link rel="stylesheet" href="css/icomoon.css" />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
+  <!-- ===== Hero Section ===== -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-text">
+        <h2>Hi, I'm <span>Amarachi Ekwebelem</span></h2>
+        <h3>A Cloud & DevOps Engineer</h3>
+        <p>Who loves to engineer automation-powered cloud systems that deliver reliability, strong security, and effortless scale.</p>
+        <a href="#projects" class="btn">View My Work</a>
+      </div>
+      <div class="hero-img">
+        <img src="images/profile.jpg" alt="Amarachi Ekwebelem" class="profile-photo" />
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target"
-      id="ftco-navbar"
-    >
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Amarachi Ekwebelem</a>
-        <button
-          class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle"
-          type="button"
-          data-toggle="collapse"
-          data-target="#ftco-nav"
-        >
-          <span class="oi oi-menu"></span> Menu
-        </button>
 
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-            <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-            <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-            <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-            <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
-            <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-            <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
-            <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-          </ul>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I’m a cloud and DevOps engineer focused on designing secure, scalable infrastructure. I use automation and Infrastructure as Code to reduce downtime, speed up deployment, and make systems easier to manage. My work is simple: build efficiently, automate smartly, and deliver reliable results.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="section light-bg">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li>Amazon Web Services (AWS)
+(S3, EC2, ECR, IAM, VPC, CloudFront, Route 53, CloudWatch, AWS Config, Lambda)</li>
+        <li>Containerization & Orchestration
+
+Docker
+(Dockerfile, multi-stage builds)
+
+Kubernetes (K8s)
+(Pods, Deployments, Services, Ingress, ConfigMaps, k3s, EKS)
+
+ArgoCD (GitOps continuous delivery)</li>
+        <li>Infrastructure as Code (IaC)
+
+Terraform
+(init, plan, apply, destroy, modules, variables, version pinning)</li>
+        <li>CI/CD Pipelines
+
+GitHub Actions
+(AWS deployments, S3 sync, ECR docker push, EC2 deploy automation)</li>
+        <li>Networking & Security
+
+VPC design
+
+Subnets (public/private)
+
+Internet Gateway, NAT Gateway
+
+Security Groups & NACLs
+
+IAM roles, MFA, least privilege
+
+HTTPS/SSL with CloudFront and ACM
+
+Basic compliance monitoring (AWS Config)</li>
+        <li>Monitoring & Observability
+
+Datadog
+
+AWS CloudWatch Dashboards
+
+Logging & alerting setup
+
+Performance and metrics monitoring</li>
+      </ul>
+    </div>
+  </section>
+
+
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+  <h2 class="project-title">Mediplus Healthcare Web App — End-to-End Cloud Deployment</h2>
+  
+  <p class="project-description">
+    A 3-tier healthcare application (Frontend, FastAPI Backend, Database) deployed using Docker, AWS 
+    ECR, EC2, and HAProxy. This project simulates a real-world healthcare infrastructure with full 
+    automation and secure configurations.
+  </p>
+
+  <h3 class="section-heading">Tech Stack</h3>
+  <p class="tech-stack">
+    Docker &bull; AWS ECR &bull; EC2 &bull; HAProxy &bull; GitHub Actions &bull; Linux &bull; Nginx
+  </p>
+
+  <h3 class="section-heading">What I Did</h3>
+  <ul class="project-tasks">
+    <li>Containerized both frontend and backend using optimized multi-stage Dockerfiles.</li>
+    <li>Built a CI/CD pipeline with GitHub Actions to automate Docker image builds and ECR pushes.</li>
+    <li>Configured EC2 instance and deployed containers using Portainer for easier management.</li>
+    <li>Set up HAProxy as a reverse proxy to route traffic securely and efficiently.</li>
+    <li>Implemented IAM roles, Security Groups, and HTTPS for enhanced application security.</li>
+  </ul>
+
+  <h3 class="section-heading">Outcome</h3>
+  <p class="outcome">
+    Deployment time was reduced and reliability improved through full automation and containerized 
+    application delivery.
+  </p>
+
+  <!-- Optional: Add GitHub / Demo links -->
+  <div class="project-links">
+    <a href="#" class="btn" target="_blank">GitHub Repository</a>
+  
+  </div>
+</div>
+
+        <div class="project-card">
+
+  <!-- Project Image -->
+  <div class="project-image">
+    <img src="images/portfolio-s3-cloudfront.png" alt="S3 and CloudFront Deployment Architecture">
+  </div>
+
+  <h2 class="project-title">Portfolio Website — Automated Deployment to S3 & CloudFront</h2>
+
+  <p class="project-description">
+    A fully automated static portfolio website deployed using AWS S3, CloudFront CDN, and GitHub 
+    Actions for continuous deployment. The project demonstrates real-world cloud hosting, DNS 
+    integration, and automation best practices.
+  </p>
+
+  <h3 class="section-heading">Tech Stack</h3>
+  <p class="tech-stack">
+    AWS S3 • AWS CloudFront • Route 53 • GitHub Actions • HTTPS/SSL • IAM
+  </p>
+
+  <h3 class="section-heading">What I Did</h3>
+  <ul class="project-tasks">
+    <li>Configured AWS S3 bucket for static website hosting with correct bucket policies.</li>
+    <li>Integrated CloudFront CDN to deliver the website globally with low latency.</li>
+    <li>Set up SSL certificate via AWS Certificate Manager for HTTPS security.</li>
+    <li>Connected custom domain using Route 53 for professional branding.</li>
+    <li>Built a GitHub Actions workflow to automate deployment using S3 sync.</li>
+    <li>Debugged MIME types and permissions errors until the website loaded perfectly.</li>
+  </ul>
+
+  <h3 class="section-heading">Outcome</h3>
+  <p class="outcome">
+    Achieved seamless, automated deployments with improved website performance, security, and 
+    global availability through CloudFront.
+  </p>
+
+  <div class="project-links">
+    <a href="#" class="btn" target="_blank">GitHub Repository</a>
+    <a href="#" class="btn" target="_blank">Live Website</a>
+  </div>
+
+</div>
+
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <!-- Hero Section -->
-    <section id="home-section" class="hero">
-      <div class="home-slider owl-carousel">
-        <div class="slider-item">
-          <div class="overlay"></div>
-          <div class="container">
-            <div
-              class="row d-md-flex no-gutters slider-text align-items-end justify-content-end"
-            >
-              <div
-                class="one-third js-fullheight order-md-last img"
-                style="background-image:url('images/bg_1.png');"
-              >
-                <div class="overlay"></div>
-              </div>
-              <div class="one-forth d-flex align-items-center ftco-animate">
-                <div class="text">
-                  <span class="subheading">Hello!</span>
-                  <h1 class="mb-4 mt-3">I'm <span>Amarachi Ekwebelem</span></h1>
-                  <h2 class="mb-4">A Dynamic Cloud/DevOps Engineer</h2>
-                  <p>
-                    <a href="#" class="btn btn-primary py-3 px-4">Hire Me</a>
-                    <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My Works</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="section light-bg">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Interested in collaboration or hiring me for your next project? Let’s connect!</p>
+      <ul class="contact-info">
+        <li>Email: <a href="mailto:amarachi.ekwebelem0@gmail.com">amarachi.ekwebelem0@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/ekwebelemamarachi/">ekwebelemamarachi</a></li>
+        <li>GitHub: <a href="https://github.com/Cloudcrackamara">Cloudcrackamara</a></li>
+      </ul>
+    </div>
+  </section>
 
-        <div class="slider-item">
-          <div class="overlay"></div>
-          <div class="container">
-            <div class="row d-flex no-gutters slider-text align-items-end justify-content-end">
-              <div
-                class="one-third js-fullheight order-md-last img"
-                style="background-image:url('images/bg_2.png');"
-              >
-                <div class="overlay"></div>
-              </div>
-              <div class="one-forth d-flex align-items-center ftco-animate">
-                <div class="text">
-                  <span class="subheading">Hello!</span>
-                  <h1 class="mb-4 mt-3">I'm a <span>Cloud/DevOps Engineer</span></h1>
-                  <p>
-                    <a href="#" class="btn btn-primary py-3 px-4">Hire Me</a>
-                    <a href="#" class="btn btn-white btn-outline-white py-3 px-4">My Works</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>&copy; 2025 Amarachi Ekwebelem | Cloud & DevOps Engineer</p>
+  </footer>
 
-    <!-- About Section -->
-    <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
-      <div class="container">
-        <div class="row d-flex">
-          <div class="col-md-6 col-lg-5 d-flex">
-            <div class="img-about img d-flex align-items-stretch">
-              <div class="overlay"></div>
-              <div
-                class="img d-flex align-self-stretch align-items-center"
-                style="background-image:url('images/about.jpg');"
-              ></div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-            <div class="heading-section ftco-animate">
-              <h1 class="big">About</h1>
-              <h2 class="mb-4">About Me</h2>
-              <p>
-                Cloud enthusiast specializing in AWS, with hands-on expertise in IAM, S3, and VPC-based deployments.
-                Passionate about building scalable, secure cloud solutions—always learning, always automating.
-              </p>
-              <ul class="about-info mt-4 px-md-0 px-2">
-                <li><span>Name:</span> <span>Amarachi Ekwebelem</span></li>
-                <li><span>Email:</span> <span>amarachijanefrancis04@gmail.com</span></li>
-                <li>
-                  <span>LinkedIn:</span>
-                  <span><a href="https://www.linkedin.com/in/ekwebelemamarachi/">View Profile</a></span>
-                </li>
-                <li>
-                  <span>GitHub:</span>
-                  <span><a href="https://github.com/Cloudcrackamara">Cloudcrackamara</a></span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Scripts -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+</body>
 </html>
